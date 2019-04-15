@@ -29,12 +29,6 @@
 
 .tittles__color {
     color: #364049;
-    margin: 20px 10px;
-}
-
-.feature__image {
-    padding: 10px;
-    width: 100%;
 }
 
 /* ---- ---- Head ---- ---- */
@@ -82,14 +76,12 @@ label {
 .tittle__align  {
     display: flex;
     justify-content: center;
-    padding: 10px 0;
 }
 
 .text__paragraph--style {
     text-align: center;
     width: 70%;
     margin: 0 auto;
-    padding-bottom: 10px;
 }
 
 .feature__style {
@@ -98,18 +90,8 @@ label {
 }
 
 .button__style--feature {
-    margin: 10px auto;
+    margin: 0 auto;
     display: flex;
-}
-
-/* ---- ---- social publishing ---- ---- */
-
-.text__paragraph--social {
-    padding: 10px;
-    margin-bottom: 20px;
-}
-.button__style--getstarted {
-    margin-left: 10px;
 }
 
 /* --- Responsive -----*/
