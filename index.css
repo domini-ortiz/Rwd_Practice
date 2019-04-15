@@ -25,16 +25,22 @@
     color: white;
     cursor: pointer;
     padding: 10px;
+    width: 30%;
 }
 
 .tittles__color {
     color: #364049;
-    margin: 20px 10px;
+    padding: 20px;
 }
 
 .feature__image {
     padding: 10px;
     width: 100%;
+}
+
+.text__paragraph__sections--style {
+    margin-bottom: 20px;
+    padding: 0 20px;
 }
 
 /* ---- ---- Head ---- ---- */
@@ -86,10 +92,10 @@ label {
 }
 
 .text__paragraph--style {
-    text-align: center;
-    width: 70%;
     margin: 0 auto;
     padding-bottom: 10px;
+    text-align: center;
+    width: 70%;
 }
 
 .feature__style {
@@ -98,19 +104,28 @@ label {
 }
 
 .button__style--feature {
+    display: block;
     margin: 10px auto;
-    display: flex;
 }
 
 /* ---- ---- social publishing ---- ---- */
 
-.text__paragraph--social {
-    padding: 10px;
-    margin-bottom: 20px;
-}
 .button__style--getstarted {
-    margin-left: 10px;
+    margin-left: 20px;
 }
+
+.feature__image__social--position {
+    bottom: 50px;
+    left: 130px;
+    position: relative;
+}
+
+.social__style {
+    height: 430px;
+    background-color: #f0f5f9;
+}
+
+/* ---- ---- engagement ---- ---- */
 
 /* --- Responsive -----*/
 
@@ -126,9 +141,5 @@ label {
     }
     #hamburger:checked + .nav__bar--menu {
         display: block;
-    }
-    .tittles__color {
-        font-size: 24px;
-        font-style: inherit;
     }
 }
