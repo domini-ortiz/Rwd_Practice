@@ -1,0 +1,72 @@
+/*  ---- ---- Palette ---- ----
+
+    - buttons:     #018cf5
+    - 1background: #f0f5f9
+    - 2background: #e5ecf2
+    - blue-footer: #008af5
+    - gray-footer: #364049
+    - social-icon: #888b90
+
+---- ---- ---- ---- ---- ----*/
+
+/* ---- ---- General ---- ---- */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* ---- ---- Head ---- ---- */
+
+.nav__bar {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav__bar--logo {
+    width: 30%;
+}
+
+.nav__logo--size {
+    height: auto;
+    margin: 20px 0;
+    max-width: 100%;
+}
+
+.nav__bar--menu a {
+    color: gray;
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+label {
+    color: lightslategray;
+    display: none;
+    font-size: 26px;
+    margin: 20px;
+}
+
+#hamburger {
+    display: none;
+}
+
+/* --- Responsive -----*/
+
+@media screen and (max-width: 450px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .nav__bar--menu {
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+    #hamburger:checked + .nav__bar--menu {
+        display: block;
+    }
+}
