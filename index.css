@@ -6,6 +6,7 @@
     - blue-footer: #008af5
     - gray-footer: #364049
     - social-icon: #888b90
+    - tittles:     #364049
 
 ---- ---- ---- ---- ---- ----*/
 
@@ -15,6 +16,19 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+}
+
+.button__style {
+    background-color: #018cf5;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.tittles__color {
+    color: #364049;
 }
 
 /* ---- ---- Head ---- ---- */
@@ -54,6 +68,29 @@ label {
     display: none;
 }
 
+/* ---- ---- read.me features ---- ---- */
+
+.tittle__align  {
+    display: flex;
+    justify-content: center;
+}
+
+.text__paragraph--style {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.feature__style {
+    display: flex;
+    justify-items: center;
+}
+
+.button__style--feature {
+    margin: 0 auto;
+    display: flex;
+}
+
 /* --- Responsive -----*/
 
 @media screen and (max-width: 450px) {
@@ -68,5 +105,9 @@ label {
     }
     #hamburger:checked + .nav__bar--menu {
         display: block;
+    }
+    .tittles__color {
+        font-size: 24px;
+        font-style: inherit;
     }
 }
